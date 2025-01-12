@@ -17,7 +17,8 @@
     "netlify-cli": "^18.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.0.1"
+    "react-router": "^7.1.1",
+    "unpic": "^3.22.0"
   },
   "devDependencies": {
     "@netlify/vite-plugin-react-router": "^0.0.0",
