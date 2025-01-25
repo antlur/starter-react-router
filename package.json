@@ -9,6 +9,7 @@
     "typecheck": "react-router typegen && tsc --build --noEmit"
   },
   "dependencies": {
+    "@antlur/backstage": "^1.2.0",
     "@netlify/functions": "^2.8.2",
     "@react-router/node": "^7.1.1",
     "@react-router/serve": "^7.1.1",

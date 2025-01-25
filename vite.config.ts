@@ -8,5 +8,8 @@ export default defineConfig(({ isSsrBuild }) => ({
   server: {
     port: 3000,
   },
+  ssr: {
+    noExternal: ["@antlur/backstage"],
+  },
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths(), netlifyPlugin()],
 }));
