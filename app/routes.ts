@@ -1,3 +1,8 @@
-import { type RouteConfig, index, layout } from "@react-router/dev/routes";
+import { type RouteConfig, index, layout, route } from "@react-router/dev/routes";
 
-export default [index("routes/index.tsx")] satisfies RouteConfig;
+export default [
+  index("routes/backstage-route.tsx"),
+  route("/*", "routes/backstage-route.tsx", {
+    id: "backstage-catchall",
+  }),
+] satisfies RouteConfig;
